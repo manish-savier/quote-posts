@@ -1,0 +1,85 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Helvetica, sans-serif;
+ color: #4c4c4c;
+}
+
+body {
+  background-color: #F2FBF9;
+}
+
+
+.container {
+  max-width: 50rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.posts_div {
+  background-color: white;
+  padding: 1rem;
+  margin: 0 1rem 0.5rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.posts_div h4 {
+  color: #039be1;
+  margin-bottom: 0.2rem;
+}
+
+.postPageDiv {
+  padding: 2rem;
+}
+
+.postPageDiv h4 {
+  margin-bottom: 1rem;
+}
+
+.postPageDiv p {
+  line-height: 1.5;
+}
+
+.posts_div:hover {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: #0a1535;
+  display: block;
+  padding: 0.8rem;
+  margin-top: 2rem;
+}
+
+.footer p {
+  color: rgba(256,256,256,0.6);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.main_page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.backHomeBtnContainer {
+  text-align: center;
+  padding: 2rem;
+}
+
+.backToHomeBtn {
+  color: white;
+  padding: 1rem 2rem;
+  background-color: #039be1;
+  display: inline-block;
+  border-radius: 0.4rem;
+  margin-top: 2rem;
+}
+
+.backToHomeBtn:hover {
+  background-color:#0a1535;
+}

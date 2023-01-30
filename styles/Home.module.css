@@ -1,0 +1,48 @@
+.nav_container {
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  margin-bottom: 1rem;
+}
+
+.nav {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 3rem;
+  margin-right: 1rem;
+}
+
+.nav ul li {
+  font-weight: 600;
+}
+
+.nav ul li:hover {
+  color: #039be1;
+  cursor: pointer;
+}
+
+.nav ul li:hover {
+  color: #039be1;
+  cursor: pointer;
+}
+
+.searchbox {
+  outline: none;
+  border: 1px solid #b2b2b2;
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+}
+
+.searchbox input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
